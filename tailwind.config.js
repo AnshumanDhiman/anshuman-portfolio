@@ -8,6 +8,7 @@ module.exports = {
       colors: {
         'new_black': '#18181B',
         'border_black': '#29292C',
+        'inner_black': '#252529',
     }
   },
   },
