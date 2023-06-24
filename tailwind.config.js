@@ -9,6 +9,7 @@ module.exports = {
         'new_black': '#18181B',
         'border_black': '#29292C',
         'inner_black': '#252529',
+        'light_black': '#D4D4D8',
     }
   },
   },
