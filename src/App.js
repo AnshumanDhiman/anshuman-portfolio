@@ -1,21 +1,15 @@
-import Navbar from "./components/navbar/navbar";
-import Hero from "./components/hero-section/hero-section";
-import Category from "./components/category/category";
-import Footer from "./components/footer/footer";
+
+import Home from "./pages/home";
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
 function App() {
   return (
     <>
-      <div className="bg-black px-36">
-        <div className="bg-new_black text-white  border-l border-[#29292C]">
-          <br/>
-          <Navbar />  
-          <Hero />
-          <Category />
-          <Footer />
-        </div>
-      
-      </div>
+    <Router>
+      <Switch>
+        <Route path="/" exact component={Home} />
+      </Switch>
+    </Router>
     </>
   );
 }
