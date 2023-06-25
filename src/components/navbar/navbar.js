@@ -18,7 +18,7 @@ export default function Example() {
   return (
     <>
     <div className="px-[24rem]">
-    <Disclosure as="nav" className="bg-inner_black rounded-full border-l border-[#303032]">
+    <Disclosure as="nav" className="bg-inner_black rounded-full border-[1px] border-[#303032]">
       {({ open }) => (
         <>
             <div className="relative flex h-10 items-center justify-between">
