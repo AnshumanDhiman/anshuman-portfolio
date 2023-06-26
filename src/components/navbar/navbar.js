@@ -1,13 +1,13 @@
-import { Fragment } from 'react'
-import { Disclosure, Menu, Transition } from '@headlessui/react'
-import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
+import { Disclosure} from '@headlessui/react'
+import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 
 const navigation = [
-  { name: 'About', href: '#', current: true },
-  { name: 'Article', href: '#', current: false },
-  { name: 'Projects', href: '#', current: false },
-  { name: 'Speaking', href: '#', current: false },
-  { name: 'Uses', href: '#', current: false },
+  {name : 'Home', href: '/', current: true},
+  { name: 'About', href: 'about', current: false },
+  { name: 'Blogs', href: 'blogs', current: false },
+  { name: 'Projects', href: 'projects', current: false },
+  { name: 'Initiatives', href: 'initiatives', current: false },
+  { name: 'Contact', href: 'contact', current: false },
 ]
 
 function classNames(...classes) {
@@ -17,8 +17,8 @@ function classNames(...classes) {
 export default function Example() {
   return (
     <>
-    <div className="px-[24rem]">
-    <Disclosure as="nav" className="bg-inner_black rounded-full border-[1px] border-[#303032]">
+    <div className="lg:px-[21rem]">
+    <Disclosure as="nav" className="bg-inner_black lg:rounded-full lg:border-[1px] lg:border-[#303032]">
       {({ open }) => (
         <>
             <div className="relative flex h-10 items-center justify-between">
