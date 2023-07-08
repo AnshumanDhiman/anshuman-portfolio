@@ -8,15 +8,21 @@ import ivrrm from '../../assets/work/ivrrm.png'
 import meshery from '../../assets/work/meshery.png'
 import alp from '../../assets/work/alp.png'
 import paytm from '../../assets/work/paytm.jpg'
-import kaleido from '../../assets/work/kaleido.png'
 import foss from '../../assets/work/foss.png'
 import {AiOutlineLink, AiFillFolderOpen, AiOutlineCloudDownload} from 'react-icons/ai'
 import {BiBriefcase} from 'react-icons/bi'
 import {MdExpandMore} from 'react-icons/md'
 import {FaGithub} from 'react-icons/fa'
-
+import resume from '../../assets/resume.pdf'
 
   export default function Category() {
+
+    const handleResumeOpen = () => {
+        window.open(resume, '_blank')
+    }
+
+
+
     return (
         <>
             <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -88,17 +94,10 @@ import {FaGithub} from 'react-icons/fa'
                         <div className="text-light_black font-medium">
                             <BiBriefcase className="inline mr-3 text-2xl text-light_black" />Work</div>
                             <li className="py-4 flex">
-                                <img src={kaleido} alt="" className="w-10 h-10 rounded-full"/>
-                                <div className="ml-3">
-                                    <p className="text-sm font-medium text-white">Kaleido UX</p>
-                                    <p className="text-sm text-gray-500">Open Source Developer</p>
-                                </div>
-                            </li>
-                            <li className="py-4 flex">
                                 <img src={paytm} alt="" className="w-10 h-10 rounded-full"/>
                                     <div className="ml-3">
                                         <p className="text-sm font-medium text-white">Paytm</p>
-                                        <p className="text-sm text-gray-500">QA Manual Intern</p>
+                                        <p className="text-sm text-gray-500">SDET-1</p>
                                     </div>
                             </li>
                             <li className="py-4 flex">
@@ -165,7 +164,7 @@ import {FaGithub} from 'react-icons/fa'
                             </div>
                         </li>
                         <li className="py-4 flex">
-                            <button className="bg-[#303032] text-white px-4 py-2 rounded-lg w-full inline">Download CV  <AiOutlineCloudDownload className="text-white ml-2 text-xl inline"/></button>
+                            <button className="bg-[#303032] text-white px-4 py-2 rounded-lg w-full inline" onClick={() => handleResumeOpen()}>Download CV  <AiOutlineCloudDownload className="text-white ml-2 text-xl inline"/></button>
                            
                         </li>
                     </ul>
