@@ -534,7 +534,7 @@ export default function Projects() {
                               blood-bank.vercel.app
                             </button>
                           </a>
-                          <div className="inline ml-[19.5rem] ">
+                          <div className="inline ml-[16rem] ">
                             <a
                               href="https://github.com/AnshumanDhiman/Blood-Bank"
                               target="_blank"
@@ -545,7 +545,8 @@ export default function Projects() {
                             <img
                               src={proj14}
                               alt="rproj"
-                              className="mt-4 rounded"
+                              className="mt-4 rounded  opacity-75"
+                              
                             />
                           </div>
                         </div>
