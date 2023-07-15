@@ -5,9 +5,9 @@ import Category from "../components/category/category";
 export default function home() {
   return (
     <>
-         <div className="bg-black lg:px-36">
+      <div className="bg-black lg:px-36">
         <div className="bg-new_black text-white  border-l border-[#29292C]">
-          <br/>
+          <br />
           <Navbar />
           <Hero />
           <Category />
@@ -15,5 +15,5 @@ export default function home() {
         </div>
       </div>
     </>
-  )
+  );
 }

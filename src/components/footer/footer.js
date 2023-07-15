@@ -10,9 +10,12 @@ export default function Footer() {
             <p className="text-light_black">Speaking</p>
           </div>
         </div>
-        <p className="text-center text-light_black">© 2023 Anshuman Dhiman. All rights reserved</p>
+        <p className="text-center text-light_black">
+          © 2023 Anshuman Dhiman. All rights reserved
+        </p>
       </div>
-      <br /><br />
+      <br />
+      <br />
     </>
-  )
+  );
 }
