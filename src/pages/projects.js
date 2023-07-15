@@ -1,8 +1,7 @@
-/* eslint-disable jsx-a11y/no-redundant-roles */
+
 import Navbar from "../components/navbar/navbar";
 import Footer from "../components/footer/footer";
 
-/* eslint-disable jsx-a11y/no-redundant-roles */
 
 
 import {AiOutlineLink, AiFillFolderOpen} from 'react-icons/ai'
