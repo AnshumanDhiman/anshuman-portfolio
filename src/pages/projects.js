@@ -58,7 +58,7 @@ export default function Projects() {
                   <div className="text-white">
                     <ul role="list" className="p-6 rounded-3xl ">
                       <li className="py-4 flex cursor-pointer">
-                        <div className="p-6 rounded-3xl border-[1.5px] border-[#303032]">
+                        <div className="p-6 rounded-3xl border-[1.5px] border-[#303032] trnasition duration-300 hover:border-[#365B64] hover: ease-in-out">
                           Rollin Studios
                           <p className="text-sm text-gray-500">
                             Created and managed Rollin Studios, a dynamic media
@@ -66,19 +66,19 @@ export default function Projects() {
                             captivating multimedia experiences.
                           </p>
                           <a
-                            href="https://www.figma.com/community/plugin/1131638845835688020/EOS-Icons"
+                            href="http://rollinstudios.in/"
                             target="_blank"
                             rel="noreferrer"
                           >
                             <button className="text-white mt-2">
                               {" "}
                               <AiOutlineLink className="inline mr-2 text-xl" />
-                              figma.com
+                              rollinstudios.in
                             </button>
                           </a>
-                          <div className="inline ml-[21rem] ">
+                          <div className="inline ml-[19rem] ">
                             <a
-                              href="https://github.com/EOS-uiux-Solutions/eos-icons-figma"
+                              href="https://github.com/AnshumanDhiman/rollin"
                               target="_blank"
                               rel="noreferrer"
                             >
@@ -93,7 +93,7 @@ export default function Projects() {
                         </div>
                       </li>
                       <li className="py-4 flex cursor-pointer">
-                        <div className="p-6 rounded-3xl border-[1.5px] border-[#303032]">
+                        <div className="p-6 rounded-3xl border-[1.5px] border-[#303032] trnasition duration-300 hover:border-[#365B64] hover: ease-in-out">
                           Alp Media
                           <p className="text-sm text-gray-500">
                             Established and managed Alp Media, a dynamic media
@@ -101,17 +101,17 @@ export default function Projects() {
                             captivating and impactful multimedia experiences.
                           </p>
                           <a
-                            href="https://www.figma.com/community/plugin/1131638845835688020/EOS-Icons"
+                            href="https://alpmedia.in/"
                             target="_blank"
                             rel="noreferrer"
                           >
                             <button className="text-white mt-2">
                               {" "}
                               <AiOutlineLink className="inline mr-2 text-xl" />
-                              figma.com
+                              alpmedia.in
                             </button>
                           </a>
-                          <div className="inline ml-[21rem] ">
+                          {/* <div className="inline ml-[21rem] ">
                             <a
                               href="https://github.com/EOS-uiux-Solutions/eos-icons-figma"
                               target="_blank"
@@ -119,7 +119,7 @@ export default function Projects() {
                             >
                               <FaGithub className="text-xl inline" />
                             </a>
-                          </div>
+                          </div> */}
                           <img
                             src={proj2}
                             alt="rproj"
@@ -128,7 +128,7 @@ export default function Projects() {
                         </div>
                       </li>
                       <li className="py-4 flex cursor-pointer">
-                        <div className="p-6 rounded-3xl border-[1.5px] border-[#303032]">
+                        <div className="p-6 rounded-3xl border-[1.5px] border-[#303032] trnasition duration-300 hover:border-[#365B64] hover: ease-in-out">
                           IPEC Connect
                           <p className="text-sm text-gray-500">
                             {" "}
@@ -137,17 +137,17 @@ export default function Projects() {
                             connectivity, within the campus community.
                           </p>
                           <a
-                            href="https://exchange.adobe.com/apps/cc/f7ecf6b5?pluginId=f7ecf6b5"
+                            href="/"
                             target="_blank"
                             rel="noreferrer"
                           >
                             <button className="text-white mt-2">
                               {" "}
                               <AiOutlineLink className="inline mr-2 text-xl" />
-                              ipc.vercel.app
+                              ipec-connect.vercel.app
                             </button>
                           </a>
-                          <div className="inline ml-[19.5rem] ">
+                          <div className="inline ml-[15.5rem] ">
                             <a
                               href="https://github.com/AnshumanDhiman/ipec-connect"
                               target="_blank"
@@ -164,7 +164,7 @@ export default function Projects() {
                         </div>
                       </li>
                       <li className="py-4 flex cursor-pointer">
-                        <div className="p-6 rounded-3xl border-[1.5px] border-[#303032]">
+                        <div className="p-6 rounded-3xl border-[1.5px] border-[#303032] trnasition duration-300 hover:border-[#365B64] hover: ease-in-out">
                           EOS Icons for Figma
                           <p className="text-sm text-gray-500">
                             A Figma extension to use all of the EOS Icons from
@@ -200,7 +200,7 @@ export default function Projects() {
                       </li>
 
                       <li className="py-4 flex cursor-pointer">
-                        <div className="p-6 rounded-3xl border-[1.5px] border-[#303032]">
+                        <div className="p-6 rounded-3xl border-[1.5px] border-[#303032] trnasition duration-300 hover:border-[#365B64] hover: ease-in-out">
                           Knowledge for Everyone
                           <p className="text-sm text-gray-500">
                             An interactive website that aims to empower students
@@ -208,7 +208,7 @@ export default function Projects() {
                             accessible educational resources.
                           </p>
                           <a
-                            href="https://exchange.adobe.com/apps/cc/f7ecf6b5?pluginId=f7ecf6b5"
+                            href="/"
                             target="_blank"
                             rel="noreferrer"
                           >
@@ -235,7 +235,7 @@ export default function Projects() {
                         </div>
                       </li>
                       <li className="py-4 flex cursor-pointer">
-                        <div className="p-6 rounded-3xl border-[1.5px] border-[#303032]">
+                        <div className="p-6 rounded-3xl border-[1.5px] border-[#303032] trnasition duration-300 hover:border-[#365B64] hover: ease-in-out">
                           Arcacia
                           <p className="text-sm text-gray-500">
                             Developed a distinctive interior design website for
@@ -243,19 +243,19 @@ export default function Projects() {
                             and user-friendly functionality.
                           </p>
                           <a
-                            href="https://www.figma.com/community/plugin/1131638845835688020/EOS-Icons"
+                            href="/"
                             target="_blank"
                             rel="noreferrer"
                           >
                             <button className="text-white mt-2">
                               {" "}
                               <AiOutlineLink className="inline mr-2 text-xl" />
-                              figma.com
+                              arcacia.vercel.app
                             </button>
                           </a>
-                          <div className="inline ml-[21rem] ">
+                          <div className="inline ml-[18rem] ">
                             <a
-                              href="https://github.com/EOS-uiux-Solutions/eos-icons-figma"
+                              href="https://github.com/RishabhXD/arcacia"
                               target="_blank"
                               rel="noreferrer"
                             >
@@ -271,7 +271,7 @@ export default function Projects() {
                       </li>
 
                       <li className="py-4 flex cursor-pointer">
-                        <div className="p-6 rounded-3xl border-[1.5px] border-[#303032]">
+                        <div className="p-6 rounded-3xl border-[1.5px] border-[#303032] trnasition duration-300 hover:border-[#365B64] hover: ease-in-out">
                           Phoenix Hostel Management System
                           <p className="text-sm text-gray-500">
                             Developed a solution for hostel management providing
@@ -282,10 +282,10 @@ export default function Projects() {
                             <button className="text-white mt-2">
                               {" "}
                               <AiOutlineLink className="inline mr-2 text-xl" />
-                              ipc.vercel.app
+                              phoenix-hms.vercel.app
                             </button>
                           </a>
-                          <div className="inline ml-[19.5rem] ">
+                          <div className="inline ml-[15.5rem] ">
                             <a
                               href="https://github.com/AnshumanDhiman/Phoenix-Hostel-Management-System"
                               target="_blank"
@@ -306,7 +306,7 @@ export default function Projects() {
                   <div className=" text-white">
                     <ul role="list" className="p-6 rounded-3xl ">
                       <li className="py-4 flex cursor-pointer">
-                        <div className="p-6 rounded-3xl border-[1.5px] border-[#303032]">
+                        <div className="p-6 rounded-3xl border-[1.5px] border-[#303032] trnasition duration-300 hover:border-[#365B64] hover: ease-in-out">
                           Zen Solutions
                           <p className="text-sm text-gray-500">
                             Developed Zen Solutions, a consultancy website,
@@ -314,24 +314,24 @@ export default function Projects() {
                             website designing, testing & etc.
                           </p>
                           <a
-                            href="https://exchange.adobe.com/apps/cc/f7ecf6b5?pluginId=f7ecf6b5"
+                            href="https://zensolutions.vercel.app/"
                             target="_blank"
                             rel="noreferrer"
                           >
                             <button className="text-white mt-2">
                               {" "}
                               <AiOutlineLink className="inline mr-2 text-xl" />
-                              kfe.vercel.app
+                              zensolutions.vercel.app
                             </button>
                           </a>
-                          <div className="inline ml-[19.5rem] ">
-                            <a
+                          <div className="inline ml-[15.5rem] ">
+                            {/* <a
                               href="https://github.com/AnshumanDhiman/Knowledge-For-Everyone"
                               target="_blank"
                               rel="noreferrer"
                             >
                               <FaGithub className="text-xl inline" />
-                            </a>
+                            </a> */}
                             <img
                               src={proj12}
                               alt="rproj"
@@ -341,7 +341,7 @@ export default function Projects() {
                         </div>
                       </li>
                       <li className="py-4 flex cursor-pointer">
-                        <div className="p-6 rounded-3xl border-[1.5px] border-[#303032]">
+                        <div className="p-6 rounded-3xl border-[1.5px] border-[#303032] trnasition duration-300 hover:border-[#365B64] hover: ease-in-out">
                           Swastik Classes
                           <p className="text-sm text-gray-500">
                             Successfully managed and executed the migration of
@@ -349,19 +349,19 @@ export default function Projects() {
                             leveraging my expertise in full development.
                           </p>
                           <a
-                            href="https://www.figma.com/community/plugin/1131638845835688020/EOS-Icons"
+                            href="https://swastikclasses.com/"
                             target="_blank"
                             rel="noreferrer"
                           >
                             <button className="text-white mt-2">
                               {" "}
                               <AiOutlineLink className="inline mr-2 text-xl" />
-                              figma.com
+                              swastikclasses.com
                             </button>
                           </a>
-                          <div className="inline ml-[21rem] ">
+                          <div className="inline ml-[17.5rem] ">
                             <a
-                              href="https://github.com/EOS-uiux-Solutions/eos-icons-figma"
+                              href="https://github.com/SwastikClasses/Swastik-Classes-Main"
                               target="_blank"
                               rel="noreferrer"
                             >
@@ -377,7 +377,7 @@ export default function Projects() {
                       </li>
 
                       <li className="py-4 flex cursor-pointer">
-                        <div className="p-6 rounded-3xl border-[1.5px] border-[#303032]">
+                        <div className="p-6 rounded-3xl border-[1.5px] border-[#303032] trnasition duration-300 hover:border-[#365B64] hover: ease-in-out">
                           Dhruverse
                           <p className="text-sm text-gray-500">
                             Designed and developed Dhruverse, a captivating
@@ -385,19 +385,19 @@ export default function Projects() {
                             expertise of a client.
                           </p>
                           <a
-                            href="https://exchange.adobe.com/apps/cc/f7ecf6b5?pluginId=f7ecf6b5"
+                            href="https://dhruverse.vercel.app/"
                             target="_blank"
                             rel="noreferrer"
                           >
                             <button className="text-white mt-2">
                               {" "}
                               <AiOutlineLink className="inline mr-2 text-xl" />
-                              ipc.vercel.app
+                              dhruverse.vercel.app
                             </button>
                           </a>
-                          <div className="inline ml-[19.5rem] ">
+                          <div className="inline ml-[16.5rem] ">
                             <a
-                              href="https://github.com/AnshumanDhiman/ipec-connect"
+                              href="https://github.com/AnshumanDhiman/dhruverse"
                               target="_blank"
                               rel="noreferrer"
                             >
@@ -412,7 +412,7 @@ export default function Projects() {
                         </div>
                       </li>
                       <li className="py-4 flex cursor-pointer">
-                        <div className="p-6 rounded-3xl border-[1.5px] border-[#303032]">
+                        <div className="p-6 rounded-3xl border-[1.5px] border-[#303032] trnasition duration-300 hover:border-[#365B64] hover: ease-in-out">
                           EOS Icons for Adobe Xd
                           <p className="text-sm text-gray-500">
                             Extension for Adobe Xd to use all of the EOS-icons
@@ -448,7 +448,7 @@ export default function Projects() {
                       </li>
 
                       <li className="py-4 flex cursor-pointer">
-                        <div className="p-6 rounded-3xl border-[1.5px] border-[#303032]">
+                        <div className="p-6 rounded-3xl border-[1.5px] border-[#303032] trnasition duration-300 hover:border-[#365B64] hover: ease-in-out">
                           My Portfolio
                           <p className="text-sm text-gray-500">
                             Developed a personalized portfolio website,
@@ -456,17 +456,17 @@ export default function Projects() {
                             professional accomplishments, and creative projects.
                           </p>
                           <a
-                            href="https://exchange.adobe.com/apps/cc/f7ecf6b5?pluginId=f7ecf6b5"
+                            href="https://anshuman-portfolio-woad.vercel.app/"
                             target="_blank"
                             rel="noreferrer"
                           >
                             <button className="text-white mt-2">
                               {" "}
                               <AiOutlineLink className="inline mr-2 text-xl" />
-                              adobe.com
+                              anshuman-portfolio.vercel.app
                             </button>
                           </a>
-                          <div className="inline ml-[21rem] ">
+                          <div className="inline ml-[12.25rem] ">
                             <a
                               href="https://github.com/EOS-uiux-Solutions/eos-icons-adobe-xd"
                               target="_blank"
@@ -483,7 +483,7 @@ export default function Projects() {
                         </div>
                       </li>
                       <li className="py-4 flex cursor-pointer">
-                        <div className="p-6 rounded-3xl border-[1.5px] border-[#303032]">
+                        <div className="p-6 rounded-3xl border-[1.5px] border-[#303032] trnasition duration-300 hover:border-[#365B64] hover: ease-in-out">
                           Kaleido UX
                           <p className="text-sm text-gray-500">
                             {" "}
@@ -492,19 +492,19 @@ export default function Projects() {
                             innovation within the web design community.
                           </p>
                           <a
-                            href="https://www.figma.com/community/plugin/1131638845835688020/EOS-Icons"
+                            href="https://kaleido-ux-taupe.vercel.app/"
                             target="_blank"
                             rel="noreferrer"
                           >
                             <button className="text-white mt-2">
                               {" "}
                               <AiOutlineLink className="inline mr-2 text-xl" />
-                              figma.com
+                              kaleido-ux.vercel.app
                             </button>
                           </a>
-                          <div className="inline ml-[21rem] ">
+                          <div className="inline ml-[16.5rem] ">
                             <a
-                              href="https://github.com/EOS-uiux-Solutions/eos-icons-figma"
+                              href="https://github.com/AnshumanDhiman/kaleido-ux"
                               target="_blank"
                               rel="noreferrer"
                             >
@@ -520,23 +520,23 @@ export default function Projects() {
                       </li>
 
                       <li className="py-4 flex cursor-pointer">
-                        <div className="p-6 rounded-3xl border-[1.5px] border-[#303032]">
+                        <div className="p-6 rounded-3xl border-[1.5px] border-[#303032] trnasition duration-300 hover:border-[#365B64] hover: ease-in-out">
                           Blood Bank
                           <p className="text-sm text-gray-500">
                             Developed Rudhir, a purpose-driven website aimed at
                             connecting blood donors with those in need,
                             providing a seamless platform for blood donation.
                           </p>
-                          <a href="" target="_blank" rel="noreferrer">
+                          <a href="/" target="_blank" rel="noreferrer">
                             <button className="text-white mt-2">
                               {" "}
                               <AiOutlineLink className="inline mr-2 text-xl" />
-                              ipc.vercel.app
+                              blood-bank.vercel.app
                             </button>
                           </a>
                           <div className="inline ml-[19.5rem] ">
                             <a
-                              href="https://github.com/AnshumanDhiman/Phoenix-Hostel-Management-System"
+                              href="https://github.com/AnshumanDhiman/Blood-Bank"
                               target="_blank"
                               rel="noreferrer"
                             >

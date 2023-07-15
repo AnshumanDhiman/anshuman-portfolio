@@ -2,12 +2,12 @@ import { Disclosure } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 
 const navigation = [
-  { name: "Home", href: "/", current: true },
-  { name: "About", href: "about", current: false },
-  { name: "Blogs", href: "blogs", current: false },
-  { name: "Projects", href: "projects", current: false },
-  { name: "Initiatives", href: "initiatives", current: false },
-  { name: "Contact", href: "contact", current: false },
+  { name: "Home", href: "/", current: false },
+  { name: "About", href: "/about", current: false },
+  { name: "Blogs", href: "/blogs", current: false },
+  { name: "Projects", href: "/projects", current: false },
+  { name: "Initiatives", href: "/initiatives", current: false },
+  { name: "Contact", href: "/contact", current: false },
 ];
 
 function classNames(...classes) {
@@ -43,8 +43,8 @@ export default function Example() {
                         href={item.href}
                         className={classNames(
                           item.current
-                            ? "text-white"
-                            : "text-gray-300 hover:text-white",
+                            ? ""
+                            : "text-gray-300 hover:text-[#6ec2d7]",
                           "rounded-md px-3 py-2 text-sm font-medium",
                         )}
                         aria-current={item.current ? "page" : undefined}
