@@ -1,4 +1,4 @@
-/* eslint-disable jsx-a11y/no-redundant-roles */
+
 import clapp from '../../assets/work/1clapp.jpg'
 import swc from '../../assets/work/swc.png'
 import layer5 from '../../assets/work/layer5.png'
