@@ -1,4 +1,3 @@
-import About from "./pages/about";
 import Blogs from "./pages/blogs";
 import Contact from "./pages/contact";
 import Initiatives from "./pages/initiatives";
@@ -12,7 +11,6 @@ function App() {
     <Router>
       <Switch>
         <Route path="/" exact component={Home} />
-        <Route path="/about" component={About}/>
         <Route path="/blogs" component={Blogs}/>
         <Route path="/contact" component={Contact}/>
         <Route path="/initiatives" component={Initiatives}/>

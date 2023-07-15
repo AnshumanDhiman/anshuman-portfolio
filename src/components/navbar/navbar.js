@@ -3,7 +3,7 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 
 const navigation = [
   { name: "Home", href: "/", current: false },
-  { name: "About", href: "/about", current: false },
+  // { name: "About", href: "/about", current: false },
   { name: "Blogs", href: "/blogs", current: false },
   { name: "Projects", href: "/projects", current: false },
   { name: "Initiatives", href: "/initiatives", current: false },
@@ -17,7 +17,7 @@ function classNames(...classes) {
 export default function Example() {
   return (
     <>
-      <div className="lg:px-[21rem]">
+      <div className="lg:px-[24rem]">
         <Disclosure
           as="nav"
           className="bg-inner_black lg:rounded-full lg:border-[1px] lg:border-[#303032]"
