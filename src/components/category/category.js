@@ -35,7 +35,7 @@ import resume from '../../assets/resume.pdf'
                             <AiFillFolderOpen className="inline mr-3 text-2xl text-light_black" />Projects</div>
                             <li className="py-4 flex">
                                <div className="p-6 rounded-3xl border-[1.5px] border-[#303032]">
-                                    EOS Icons for Figma
+                                    Rollin Studios
                                     <p className="text-sm text-gray-500">A Figma extension to use all of the EOS Icons from within the application. Open source, customizable, including all the Material icons.</p>
                                     <a href="https://www.figma.com/community/plugin/1131638845835688020/EOS-Icons" target="_blank" rel="noreferrer"><button className="text-white mt-2"> <AiOutlineLink className="inline mr-2 text-xl" />figma.com</button></a>
                                     <div className="inline ml-[21rem] ">
@@ -44,6 +44,26 @@ import resume from '../../assets/resume.pdf'
                                </div>
                             </li>
                             <li className="py-4 flex">
+                               <div className="p-6 rounded-3xl border-[1.5px] border-[#303032]">
+                                    Alp Media
+                                    <p className="text-sm text-gray-500">A Figma extension to use all of the EOS Icons from within the application. Open source, customizable, including all the Material icons.</p>
+                                    <a href="https://www.figma.com/community/plugin/1131638845835688020/EOS-Icons" target="_blank" rel="noreferrer"><button className="text-white mt-2"> <AiOutlineLink className="inline mr-2 text-xl" />figma.com</button></a>
+                                    <div className="inline ml-[21rem] ">
+                                    <a href="https://github.com/EOS-uiux-Solutions/eos-icons-figma" target="_blank" rel="noreferrer"><FaGithub className="text-xl inline" /></a>
+                                    </div>
+                               </div>
+                            </li>
+                            <li className="py-4 flex">
+                               <div className="p-6 rounded-3xl border-[1.5px] border-[#303032]">
+                                    EOS Icons for Figma
+                                    <p className="text-sm text-gray-500">A Figma extension to use all of the EOS Icons from within the application. Open source, customizable, including all the Material icons.</p>
+                                    <a href="https://www.figma.com/community/plugin/1131638845835688020/EOS-Icons" target="_blank" rel="noreferrer"><button className="text-white mt-2"> <AiOutlineLink className="inline mr-2 text-xl" />figma.com</button></a>
+                                    <div className="inline ml-[21rem] ">
+                                    <a href="https://github.com/EOS-uiux-Solutions/eos-icons-figma" target="_blank" rel="noreferrer"><FaGithub className="text-xl inline" /></a>
+                                    </div>
+                               </div>
+                            </li>
+                            {/* <li className="py-4 flex">
                             <div className="p-6 rounded-3xl border-[1.5px] border-[#303032]">
                                     EOS Icons for Adobe Xd
                                     <p className="text-sm text-gray-500">Extension for Adobe Xd to use all of the EOS-icons from within the application. Open source, customizable, including all the Material icons.</p>
@@ -52,7 +72,7 @@ import resume from '../../assets/resume.pdf'
                                     <a href="https://github.com/EOS-uiux-Solutions/eos-icons-adobe-xd" target="_blank" rel="noreferrer"><FaGithub className="text-xl inline" /></a>
                                     </div>
                                </div>
-                            </li>
+                            </li> */}
                             <li className="py-4 flex">
                             <div className="p-6 rounded-3xl border-[1.5px] border-[#303032]">
                                     Knowledge for Everyone
@@ -84,8 +104,8 @@ import resume from '../../assets/resume.pdf'
                                </div>
                             </li>
                             <li className="py-4 flex">
-                            <button className="bg-[#303032] text-white px-4 py-2 rounded-lg w-full inline">View More  <MdExpandMore className="text-white ml-2 text-xl inline"/></button>
-                            </li>
+                            <a href='/projects'><button className="bg-[#303032] text-white px-4 py-2 rounded-lg w-full inline">View More  <MdExpandMore className="text-white ml-2 text-xl inline"/></button>
+                            </a></li>
                             
                     </ul>
                     </div>
