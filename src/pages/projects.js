@@ -6,6 +6,9 @@ import { AiOutlineLink, AiFillFolderOpen } from "react-icons/ai";
 import { FaGithub } from "react-icons/fa";
 import resume from "../assets/resume.pdf";
 
+import x from "../assets/projects/x.png";
+import y from "../assets/projects/y.png";
+
 import proj1 from "../assets/projects/1.png";
 import proj2 from "../assets/projects/2.png";
 import proj3 from "../assets/projects/3.png";
@@ -36,6 +39,12 @@ export default function Projects() {
             <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
               <div className="mx-auto max-w-2xl py-16 sm:py-24 lg:max-w-none lg:py-16">
                 <h1 className="text-center text-4xl font-lighter">Projects</h1>
+                <div class="grid grid-cols-2 gap-4 px-64 py-4">
+                  <div>   <img src={x} alt="x" className="w-[20rem] mt-4 rounded-lg" /></div>
+                  <div> <img src={y} alt="y" className="w-[20rem] mt-4 rounded-lg" /></div>
+                </div>
+             
+                
                 <p className="font-thin pt-8 pl-8 pr-8 text-center">
                   Throughout my professional journey, I have embarked on a
                   multitude of projects that have not only showcased my
@@ -76,7 +85,7 @@ export default function Projects() {
                               rollinstudios.in
                             </button>
                           </a>
-                          <div className="inline ml-[19rem] ">
+                          <div className="inline ml-[18rem] ">
                             <a
                               href="https://github.com/AnshumanDhiman/rollin"
                               target="_blank"
@@ -123,7 +132,7 @@ export default function Projects() {
                           <img
                             src={proj2}
                             alt="rproj"
-                            className="mt-4 rounded "
+                            className="mt-4 rounded opacity-75"
                           />
                         </div>
                       </li>
@@ -147,7 +156,7 @@ export default function Projects() {
                               ipec-connect.vercel.app
                             </button>
                           </a>
-                          <div className="inline ml-[15.5rem] ">
+                          <div className="inline ml-[14rem] ">
                             <a
                               href="https://github.com/AnshumanDhiman/ipec-connect"
                               target="_blank"
@@ -182,7 +191,7 @@ export default function Projects() {
                               figma.com
                             </button>
                           </a>
-                          <div className="inline ml-[21rem] ">
+                          <div className="inline ml-[20rem] ">
                             <a
                               href="https://github.com/EOS-uiux-Solutions/eos-icons-figma"
                               target="_blank"
@@ -218,7 +227,7 @@ export default function Projects() {
                               kfe.vercel.app
                             </button>
                           </a>
-                          <div className="inline ml-[19.5rem] ">
+                          <div className="inline ml-[18.5rem] ">
                             <a
                               href="https://github.com/AnshumanDhiman/Knowledge-For-Everyone"
                               target="_blank"
@@ -253,7 +262,7 @@ export default function Projects() {
                               arcacia.vercel.app
                             </button>
                           </a>
-                          <div className="inline ml-[18rem] ">
+                          <div className="inline ml-[17rem] ">
                             <a
                               href="https://github.com/RishabhXD/arcacia"
                               target="_blank"
@@ -285,7 +294,7 @@ export default function Projects() {
                               phoenix-hms.vercel.app
                             </button>
                           </a>
-                          <div className="inline ml-[15.5rem] ">
+                          <div className="inline ml-[14rem] ">
                             <a
                               href="https://github.com/AnshumanDhiman/Phoenix-Hostel-Management-System"
                               target="_blank"
@@ -335,7 +344,7 @@ export default function Projects() {
                             <img
                               src={proj12}
                               alt="rproj"
-                              className="mt-4 rounded"
+                              className="mt-4 rounded opacity-75"
                             />
                           </div>
                         </div>
@@ -359,7 +368,7 @@ export default function Projects() {
                               swastikclasses.com
                             </button>
                           </a>
-                          <div className="inline ml-[17.5rem] ">
+                          <div className="inline ml-[16rem] ">
                             <a
                               href="https://github.com/SwastikClasses/Swastik-Classes-Main"
                               target="_blank"
@@ -395,7 +404,7 @@ export default function Projects() {
                               dhruverse.vercel.app
                             </button>
                           </a>
-                          <div className="inline ml-[16.5rem] ">
+                          <div className="inline ml-[15rem] ">
                             <a
                               href="https://github.com/AnshumanDhiman/dhruverse"
                               target="_blank"
@@ -430,7 +439,7 @@ export default function Projects() {
                               adobe.com
                             </button>
                           </a>
-                          <div className="inline ml-[21rem] ">
+                          <div className="inline ml-[20rem] ">
                             <a
                               href="https://github.com/EOS-uiux-Solutions/eos-icons-adobe-xd"
                               target="_blank"
@@ -466,7 +475,7 @@ export default function Projects() {
                               anshuman-portfolio.vercel.app
                             </button>
                           </a>
-                          <div className="inline ml-[12.25rem] ">
+                          <div className="inline ml-[11rem] ">
                             <a
                               href="https://github.com/EOS-uiux-Solutions/eos-icons-adobe-xd"
                               target="_blank"
@@ -502,7 +511,7 @@ export default function Projects() {
                               kaleido-ux.vercel.app
                             </button>
                           </a>
-                          <div className="inline ml-[16.5rem] ">
+                          <div className="inline ml-[15rem] ">
                             <a
                               href="https://github.com/AnshumanDhiman/kaleido-ux"
                               target="_blank"
@@ -534,7 +543,7 @@ export default function Projects() {
                               blood-bank.vercel.app
                             </button>
                           </a>
-                          <div className="inline ml-[16rem] ">
+                          <div className="inline ml-[14.5rem] ">
                             <a
                               href="https://github.com/AnshumanDhiman/Blood-Bank"
                               target="_blank"

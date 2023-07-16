@@ -57,7 +57,7 @@ export default function Category() {
                               rollinstudios.in
                             </button>
                           </a>
-                          <div className="inline ml-[19rem] ">
+                          <div className="inline ml-[18rem] ">
                             <a
                               href="https://github.com/AnshumanDhiman/rollin"
                               target="_blank"
@@ -118,7 +118,7 @@ export default function Category() {
                               figma.com
                             </button>
                           </a>
-                          <div className="inline ml-[21rem] ">
+                          <div className="inline ml-[20rem] ">
                             <a
                               href="https://github.com/EOS-uiux-Solutions/eos-icons-figma"
                               target="_blank"
@@ -150,7 +150,7 @@ export default function Category() {
                               ipec-connect.vercel.app
                             </button>
                           </a>
-                          <div className="inline ml-[15.5rem] ">
+                          <div className="inline ml-[14rem] ">
                             <a
                               href="https://github.com/AnshumanDhiman/ipec-connect"
                               target="_blank"
