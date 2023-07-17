@@ -39,129 +39,135 @@ export default function Category() {
                   Projects
                 </div>
                 <li className="py-4 flex cursor-pointer">
-                        <div className="p-6 rounded-3xl border-[1.5px] border-[#303032] trnasition duration-300 hover:border-[#365B64] hover: ease-in-out">
-                          Rollin Studios
-                          <p className="text-sm text-gray-500">
-                            Created and managed Rollin Studios, a dynamic media
-                            production house specializing in delivering
-                            captivating multimedia experiences.
-                          </p>
-                          <a
-                            href="http://rollinstudios.in/"
-                            target="_blank"
-                            rel="noreferrer"
-                          >
-                            <button className="text-white mt-2">
-                              {" "}
-                              <AiOutlineLink className="inline mr-2 text-xl" />
-                              rollinstudios.in
-                            </button>
-                          </a>
-                          <div className="inline ml-[18rem] ">
-                            <a
-                              href="https://github.com/AnshumanDhiman/rollin"
-                              target="_blank"
-                              rel="noreferrer"
-                            >
-                              <FaGithub className="text-xl inline" />
-                            </a>
-                          </div>
-                          
-                        </div>
-                      </li>
-                      <li className="py-4 flex cursor-pointer">
-                        <div className="p-6 rounded-3xl border-[1.5px] border-[#303032] trnasition duration-300 hover:border-[#365B64] hover: ease-in-out">
-                          Zen Solutions
-                          <p className="text-sm text-gray-500">
-                            Developed Zen Solutions, a consultancy website,
-                            providing different IT services to clients including
-                            website designing, testing & etc.
-                          </p>
-                          <a
-                            href="https://zensolutions.vercel.app/"
-                            target="_blank"
-                            rel="noreferrer"
-                          >
-                            <button className="text-white mt-2">
-                              {" "}
-                              <AiOutlineLink className="inline mr-2 text-xl" />
-                              zensolutions.vercel.app
-                            </button>
-                          </a>
-                          <div className="inline ml-[15.5rem] ">
-                            {/* <a
+                  <div className="p-6 rounded-3xl border-[1.5px] border-[#303032] trnasition duration-300 hover:border-[#365B64] hover: ease-in-out">
+                    Rollin Studios
+                    <p className="text-sm text-gray-500">
+                      Created and managed Rollin Studios, a dynamic media
+                      production house specializing in delivering captivating
+                      multimedia experiences.
+                    </p>
+                    <div class="grid grid-cols-2 gap-4 mt-2">
+                      <div className="inline-block">
+                        <a
+                          href="http://rollinstudios.in/"
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <button className="text-white">
+                            {" "}
+                            <AiOutlineLink className="inline mr-2 text-xl" />
+                            rollinstudios.in
+                          </button>
+                        </a>
+                      </div>
+                      <div className="inline">
+                        <a
+                          href="https://github.com/AnshumanDhiman/rollin"
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <FaGithub className="text-xl inline" />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li className="py-4 flex cursor-pointer">
+                  <div className="p-6 rounded-3xl border-[1.5px] border-[#303032] trnasition duration-300 hover:border-[#365B64] hover: ease-in-out">
+                    Zen Solutions
+                    <p className="text-sm text-gray-500">
+                      Developed Zen Solutions, a consultancy website, providing
+                      different IT services to clients including website
+                      designing, testing & etc.
+                    </p>
+                    <a
+                      href="https://zensolutions.vercel.app/"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <button className="text-white mt-2">
+                        {" "}
+                        <AiOutlineLink className="inline mr-2 text-xl" />
+                        zensolutions.vercel.app
+                      </button>
+                    </a>
+                    <div className="inline ml-[15.5rem] ">
+                      {/* <a
                               href="https://github.com/AnshumanDhiman/Knowledge-For-Everyone"
                               target="_blank"
                               rel="noreferrer"
                             >
                               <FaGithub className="text-xl inline" />
                             </a> */}
-                          </div>
-                        </div>
-                      </li>
-                      <li className="py-4 flex cursor-pointer">
-                        <div className="p-6 rounded-3xl border-[1.5px] border-[#303032] trnasition duration-300 hover:border-[#365B64] hover: ease-in-out">
-                          EOS Icons for Figma
-                          <p className="text-sm text-gray-500">
-                            A Figma extension to use all of the EOS Icons from
-                            within the application. Open source, customizable,
-                            including all the Material icons.
-                          </p>
-                          <a
-                            href="https://www.figma.com/community/plugin/1131638845835688020/EOS-Icons"
-                            target="_blank"
-                            rel="noreferrer"
-                          >
-                            <button className="text-white mt-2">
-                              {" "}
-                              <AiOutlineLink className="inline mr-2 text-xl" />
-                              figma.com
-                            </button>
-                          </a>
-                          <div className="inline ml-[20rem] ">
-                            <a
-                              href="https://github.com/EOS-uiux-Solutions/eos-icons-figma"
-                              target="_blank"
-                              rel="noreferrer"
-                            >
-                              <FaGithub className="text-xl inline" />
-                            </a>
-                          </div>
-                         
-                        </div>
-                      </li>
-                      <li className="py-4 flex cursor-pointer">
-                        <div className="p-6 rounded-3xl border-[1.5px] border-[#303032] trnasition duration-300 hover:border-[#365B64] hover: ease-in-out">
-                          IPEC Connect
-                          <p className="text-sm text-gray-500">
+                    </div>
+                  </div>
+                </li>
+                <li className="py-4 flex cursor-pointer">
+                  <div className="p-6 rounded-3xl border-[1.5px] border-[#303032] trnasition duration-300 hover:border-[#365B64] hover: ease-in-out">
+                    EOS Icons for Figma
+                    <p className="text-sm text-gray-500">
+                      A Figma extension to use all of the EOS Icons from within
+                      the application. Open source, customizable, including all
+                      the Material icons.
+                    </p>
+                    <div class="grid grid-cols-2 gap-4 mt-2">
+                      <div className="inline-block">
+                        <a
+                          href="https://www.figma.com/community/plugin/1131638845835688020/EOS-Icons"
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <button className="text-white mt-2">
                             {" "}
-                            Developed IPEC Connect, a social media platform
-                            designed for college students, facilitating seamless
-                            connectivity, within the campus community.
-                          </p>
-                          <a
-                            href="/"
-                            target="_blank"
-                            rel="noreferrer"
-                          >
-                            <button className="text-white mt-2">
-                              {" "}
-                              <AiOutlineLink className="inline mr-2 text-xl" />
-                              ipec-connect.vercel.app
-                            </button>
-                          </a>
-                          <div className="inline ml-[14rem] ">
-                            <a
-                              href="https://github.com/AnshumanDhiman/ipec-connect"
-                              target="_blank"
-                              rel="noreferrer"
-                            >
-                              <FaGithub className="text-xl inline" />
-                            </a>
-                          </div>
-                        </div>
-                      </li>
-                
+                            <AiOutlineLink className="inline mr-2 text-xl" />
+                            figma.com
+                          </button>
+                        </a>
+                      </div>
+                      <div className="inline ">
+                        <a
+                          href="https://github.com/EOS-uiux-Solutions/eos-icons-figma"
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <FaGithub className="text-xl inline" />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li className="py-4 flex cursor-pointer">
+                  <div className="p-6 rounded-3xl border-[1.5px] border-[#303032] trnasition duration-300 hover:border-[#365B64] hover: ease-in-out">
+                    IPEC Connect
+                    <p className="text-sm text-gray-500">
+                      {" "}
+                      Developed IPEC Connect, a social media platform designed
+                      for college students, facilitating seamless connectivity,
+                      within the campus community.
+                    </p>
+                    <div class="grid grid-cols-2 gap-4 mt-2">
+                      <div className="inline-block">
+                        <a href="/" target="_blank" rel="noreferrer">
+                          <button className="text-white">
+                            {" "}
+                            <AiOutlineLink className="inline mr-2 text-xl" />
+                            ipec-conn.vercel.app
+                          </button>
+                        </a>
+                      </div>
+                      <div className="inline-block">
+                        <a
+                          href="https://github.com/AnshumanDhiman/ipec-connect"
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <FaGithub className="text-xl inline" />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+
                 <li className="py-[12px] flex justify-center">
                   <a href="/projects">
                     <button className="bg-[#303032] text-white px-4 py-2 rounded-lg w-full inline">

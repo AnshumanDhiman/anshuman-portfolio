@@ -40,11 +40,24 @@ export default function Projects() {
               <div className="mx-auto max-w-2xl py-16 sm:py-24 lg:max-w-none lg:py-16">
                 <h1 className="text-center text-4xl font-lighter">Projects</h1>
                 <div class="grid grid-cols-2 gap-4 px-64 py-4">
-                  <div>   <img src={x} alt="x" className="w-[20rem] mt-4 rounded-lg" /></div>
-                  <div> <img src={y} alt="y" className="w-[20rem] mt-4 rounded-lg" /></div>
+                  <div>
+                    {" "}
+                    <img
+                      src={x}
+                      alt="x"
+                      className="w-[20rem] mt-4 rounded-lg"
+                    />
+                  </div>
+                  <div>
+                    {" "}
+                    <img
+                      src={y}
+                      alt="y"
+                      className="w-[20rem] mt-4 rounded-lg"
+                    />
+                  </div>
                 </div>
-             
-                
+
                 <p className="font-thin pt-8 pl-8 pr-8 text-center">
                   Throughout my professional journey, I have embarked on a
                   multitude of projects that have not only showcased my
@@ -74,25 +87,29 @@ export default function Projects() {
                             production house specializing in delivering
                             captivating multimedia experiences.
                           </p>
-                          <a
-                            href="http://rollinstudios.in/"
-                            target="_blank"
-                            rel="noreferrer"
-                          >
-                            <button className="text-white mt-2">
-                              {" "}
-                              <AiOutlineLink className="inline mr-2 text-xl" />
-                              rollinstudios.in
-                            </button>
-                          </a>
-                          <div className="inline ml-[18rem] ">
-                            <a
-                              href="https://github.com/AnshumanDhiman/rollin"
-                              target="_blank"
-                              rel="noreferrer"
-                            >
-                              <FaGithub className="text-xl inline" />
-                            </a>
+                          <div class="grid grid-cols-2 gap-4 mt-2">
+                            <div className="inline-block">
+                              <a
+                                href="http://rollinstudios.in/"
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                <button className="text-white">
+                                  {" "}
+                                  <AiOutlineLink className="inline mr-2 text-xl" />
+                                  rollinstudios.in
+                                </button>
+                              </a>
+                            </div>
+                            <div className="inline">
+                              <a
+                                href="https://github.com/AnshumanDhiman/rollin"
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                <FaGithub className="text-xl inline" />
+                              </a>
+                            </div>
                           </div>
                           <img
                             src={proj1}
@@ -145,31 +162,31 @@ export default function Projects() {
                             designed for college students, facilitating seamless
                             connectivity, within the campus community.
                           </p>
-                          <a
-                            href="/"
-                            target="_blank"
-                            rel="noreferrer"
-                          >
-                            <button className="text-white mt-2">
-                              {" "}
-                              <AiOutlineLink className="inline mr-2 text-xl" />
-                              ipec-connect.vercel.app
-                            </button>
-                          </a>
-                          <div className="inline ml-[14rem] ">
-                            <a
-                              href="https://github.com/AnshumanDhiman/ipec-connect"
-                              target="_blank"
-                              rel="noreferrer"
-                            >
-                              <FaGithub className="text-xl inline" />
-                            </a>
-                            <img
-                              src={proj6}
-                              alt="rproj"
-                              className="mt-4 rounded opacity-75"
-                            />
+                          <div class="grid grid-cols-2 gap-4 mt-2">
+                            <div className="inline-block">
+                              <a href="/" target="_blank" rel="noreferrer">
+                                <button className="text-white">
+                                  {" "}
+                                  <AiOutlineLink className="inline mr-2 text-xl" />
+                                  ipec-connect.vercel.app
+                                </button>
+                              </a>
+                            </div>
+                            <div className="inline">
+                              <a
+                                href="https://github.com/AnshumanDhiman/ipec-connect"
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                <FaGithub className="text-xl inline" />
+                              </a>
+                            </div>
                           </div>
+                          <img
+                            src={proj6}
+                            alt="rproj"
+                            className="mt-4 rounded opacity-75"
+                          />
                         </div>
                       </li>
                       <li className="py-4 flex cursor-pointer">
@@ -180,25 +197,29 @@ export default function Projects() {
                             within the application. Open source, customizable,
                             including all the Material icons.
                           </p>
-                          <a
-                            href="https://www.figma.com/community/plugin/1131638845835688020/EOS-Icons"
-                            target="_blank"
-                            rel="noreferrer"
-                          >
-                            <button className="text-white mt-2">
-                              {" "}
-                              <AiOutlineLink className="inline mr-2 text-xl" />
-                              figma.com
-                            </button>
-                          </a>
-                          <div className="inline ml-[20rem] ">
-                            <a
-                              href="https://github.com/EOS-uiux-Solutions/eos-icons-figma"
-                              target="_blank"
-                              rel="noreferrer"
-                            >
-                              <FaGithub className="text-xl inline" />
-                            </a>
+                          <div class="grid grid-cols-2 gap-4 mt-2">
+                            <div className="inline-block">
+                              <a
+                                href="https://www.figma.com/community/plugin/1131638845835688020/EOS-Icons"
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                <button className="text-white">
+                                  {" "}
+                                  <AiOutlineLink className="inline mr-2 text-xl" />
+                                  figma.com
+                                </button>
+                              </a>
+                            </div>
+                            <div className="inline ml">
+                              <a
+                                href="https://github.com/EOS-uiux-Solutions/eos-icons-figma"
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                <FaGithub className="text-xl inline" />
+                              </a>
+                            </div>
                           </div>
                           <img
                             src={proj3}
@@ -216,31 +237,31 @@ export default function Projects() {
                             and learners by providing comprehensive and
                             accessible educational resources.
                           </p>
-                          <a
-                            href="/"
-                            target="_blank"
-                            rel="noreferrer"
-                          >
-                            <button className="text-white mt-2">
-                              {" "}
-                              <AiOutlineLink className="inline mr-2 text-xl" />
-                              kfe.vercel.app
-                            </button>
-                          </a>
-                          <div className="inline ml-[18.5rem] ">
-                            <a
-                              href="https://github.com/AnshumanDhiman/Knowledge-For-Everyone"
-                              target="_blank"
-                              rel="noreferrer"
-                            >
-                              <FaGithub className="text-xl inline" />
-                            </a>
-                            <img
-                              src={proj5}
-                              alt="rproj"
-                              className="mt-4 rounded opacity-75"
-                            />
+                          <div class="grid grid-cols-2 gap-4 mt-2">
+                            <div className="inline-block">
+                              <a href="/" target="_blank" rel="noreferrer">
+                                <button className="text-white">
+                                  {" "}
+                                  <AiOutlineLink className="inline mr-2 text-xl" />
+                                  kfe.vercel.app
+                                </button>
+                              </a>
+                            </div>
+                            <div className="inline">
+                              <a
+                                href="https://github.com/AnshumanDhiman/Knowledge-For-Everyone"
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                <FaGithub className="text-xl inline" />
+                              </a>
+                            </div>
                           </div>
+                          <img
+                            src={proj5}
+                            alt="rproj"
+                            className="mt-4 rounded opacity-75"
+                          />
                         </div>
                       </li>
                       <li className="py-4 flex cursor-pointer">
@@ -251,31 +272,31 @@ export default function Projects() {
                             Arcacia, incorporating innovative design elements
                             and user-friendly functionality.
                           </p>
-                          <a
-                            href="/"
-                            target="_blank"
-                            rel="noreferrer"
-                          >
-                            <button className="text-white mt-2">
-                              {" "}
-                              <AiOutlineLink className="inline mr-2 text-xl" />
-                              arcacia.vercel.app
-                            </button>
-                          </a>
-                          <div className="inline ml-[17rem] ">
-                            <a
-                              href="https://github.com/RishabhXD/arcacia"
-                              target="_blank"
-                              rel="noreferrer"
-                            >
-                              <FaGithub className="text-xl inline" />
-                            </a>
-                            <img
-                              src={proj9}
-                              alt="rproj"
-                              className="mt-4 rounded  opacity-75"
-                            />
+                          <div class="grid grid-cols-2 gap-4 mt-2">
+                            <div className="inline-block">
+                              <a href="/" target="_blank" rel="noreferrer">
+                                <button className="text-white">
+                                  {" "}
+                                  <AiOutlineLink className="inline mr-2 text-xl" />
+                                  arcacia.vercel.app
+                                </button>
+                              </a>
+                            </div>
+                            <div className="inline">
+                              <a
+                                href="https://github.com/RishabhXD/arcacia"
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                <FaGithub className="text-xl inline" />
+                              </a>
+                            </div>
                           </div>
+                          <img
+                            src={proj9}
+                            alt="rproj"
+                            className="mt-4 rounded  opacity-75"
+                          />
                         </div>
                       </li>
 
@@ -287,27 +308,31 @@ export default function Projects() {
                             features for allocation of rooms, Reallocation of
                             room, etc in a particular hostel building etc.
                           </p>
-                          <a href="" target="_blank" rel="noreferrer">
-                            <button className="text-white mt-2">
-                              {" "}
-                              <AiOutlineLink className="inline mr-2 text-xl" />
-                              phoenix-hms.vercel.app
-                            </button>
-                          </a>
-                          <div className="inline ml-[14rem] ">
-                            <a
-                              href="https://github.com/AnshumanDhiman/Phoenix-Hostel-Management-System"
-                              target="_blank"
-                              rel="noreferrer"
-                            >
-                              <FaGithub className="text-xl inline" />
-                            </a>
-                            <img
-                              src={proj7}
-                              alt="rproj"
-                              className="mt-4 rounded opacity-75"
-                            />
+                          <div class="grid grid-cols-2 gap-4 mt-2">
+                            <div className="inline-block">
+                              <a href="" target="_blank" rel="noreferrer">
+                                <button className="text-white ">
+                                  {" "}
+                                  <AiOutlineLink className="inline mr-2 text-xl" />
+                                  phoenix-hms.vercel.app
+                                </button>
+                              </a>
+                            </div>
+                            <div className="inline ">
+                              <a
+                                href="https://github.com/AnshumanDhiman/Phoenix-Hostel-Management-System"
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                <FaGithub className="text-xl inline" />
+                              </a>
+                            </div>
                           </div>
+                          <img
+                            src={proj7}
+                            alt="rproj"
+                            className="mt-4 rounded opacity-75"
+                          />
                         </div>
                       </li>
                     </ul>
@@ -357,31 +382,35 @@ export default function Projects() {
                             Swastik Classes' website from WordPress to React,
                             leveraging my expertise in full development.
                           </p>
-                          <a
-                            href="https://swastikclasses.com/"
-                            target="_blank"
-                            rel="noreferrer"
-                          >
-                            <button className="text-white mt-2">
-                              {" "}
-                              <AiOutlineLink className="inline mr-2 text-xl" />
-                              swastikclasses.com
-                            </button>
-                          </a>
-                          <div className="inline ml-[16rem] ">
-                            <a
-                              href="https://github.com/SwastikClasses/Swastik-Classes-Main"
-                              target="_blank"
-                              rel="noreferrer"
-                            >
-                              <FaGithub className="text-xl inline" />
-                            </a>
-                            <img
-                              src={proj10}
-                              alt="rproj"
-                              className="mt-4 rounded opacity-75"
-                            />
+                          <div class="grid grid-cols-2 gap-4 mt-2">
+                            <div className="inline-block">
+                              <a
+                                href="https://swastikclasses.com/"
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                <button className="text-white">
+                                  {" "}
+                                  <AiOutlineLink className="inline mr-2 text-xl" />
+                                  swastikclasses.com
+                                </button>
+                              </a>
+                            </div>
+                            <div className="inline">
+                              <a
+                                href="https://github.com/SwastikClasses/Swastik-Classes-Main"
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                <FaGithub className="text-xl inline" />
+                              </a>
+                            </div>
                           </div>
+                          <img
+                            src={proj10}
+                            alt="rproj"
+                            className="mt-4 rounded opacity-75"
+                          />
                         </div>
                       </li>
 
@@ -393,31 +422,35 @@ export default function Projects() {
                             portfolio website showcasing the skills and
                             expertise of a client.
                           </p>
-                          <a
-                            href="https://dhruverse.vercel.app/"
-                            target="_blank"
-                            rel="noreferrer"
-                          >
-                            <button className="text-white mt-2">
-                              {" "}
-                              <AiOutlineLink className="inline mr-2 text-xl" />
-                              dhruverse.vercel.app
-                            </button>
-                          </a>
-                          <div className="inline ml-[15rem] ">
-                            <a
-                              href="https://github.com/AnshumanDhiman/dhruverse"
-                              target="_blank"
-                              rel="noreferrer"
-                            >
-                              <FaGithub className="text-xl inline" />
-                            </a>
-                            <img
-                              src={proj13}
-                              alt="rproj"
-                              className="mt-4 rounded"
-                            />
+                          <div class="grid grid-cols-2 gap-4 mt-2">
+                            <div className="inline-block">
+                              <a
+                                href="https://dhruverse.vercel.app/"
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                <button className="text-white">
+                                  {" "}
+                                  <AiOutlineLink className="inline mr-2 text-xl" />
+                                  dhruverse.vercel.app
+                                </button>
+                              </a>
+                            </div>
+                            <div className="inline">
+                              <a
+                                href="https://github.com/AnshumanDhiman/dhruverse"
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                <FaGithub className="text-xl inline" />
+                              </a>
+                            </div>
                           </div>
+                          <img
+                            src={proj13}
+                            alt="rproj"
+                            className="mt-4 rounded"
+                          />
                         </div>
                       </li>
                       <li className="py-4 flex cursor-pointer">
@@ -428,25 +461,29 @@ export default function Projects() {
                             from within the application. Open source,
                             customizable, including all the Material icons.
                           </p>
-                          <a
-                            href="https://exchange.adobe.com/apps/cc/f7ecf6b5?pluginId=f7ecf6b5"
-                            target="_blank"
-                            rel="noreferrer"
-                          >
-                            <button className="text-white mt-2">
-                              {" "}
-                              <AiOutlineLink className="inline mr-2 text-xl" />
-                              adobe.com
-                            </button>
-                          </a>
-                          <div className="inline ml-[20rem] ">
-                            <a
-                              href="https://github.com/EOS-uiux-Solutions/eos-icons-adobe-xd"
-                              target="_blank"
-                              rel="noreferrer"
-                            >
-                              <FaGithub className="text-xl inline" />
-                            </a>
+                          <div class="grid grid-cols-2 gap-4 mt-2">
+                            <div className="inline-block">
+                              <a
+                                href="https://exchange.adobe.com/apps/cc/f7ecf6b5?pluginId=f7ecf6b5"
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                <button className="text-white mt-2">
+                                  {" "}
+                                  <AiOutlineLink className="inline mr-2 text-xl" />
+                                  adobe.com
+                                </button>
+                              </a>
+                            </div>
+                            <div className="inline ">
+                              <a
+                                href="https://github.com/EOS-uiux-Solutions/eos-icons-adobe-xd"
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                <FaGithub className="text-xl inline" />
+                              </a>
+                            </div>
                           </div>
                           <img
                             src={proj4}
@@ -464,31 +501,35 @@ export default function Projects() {
                             leveraging my expertise, to showcase my skillset,
                             professional accomplishments, and creative projects.
                           </p>
-                          <a
-                            href="https://anshuman-portfolio-woad.vercel.app/"
-                            target="_blank"
-                            rel="noreferrer"
-                          >
-                            <button className="text-white mt-2">
-                              {" "}
-                              <AiOutlineLink className="inline mr-2 text-xl" />
-                              anshuman-portfolio.vercel.app
-                            </button>
-                          </a>
-                          <div className="inline ml-[11rem] ">
-                            <a
-                              href="https://github.com/EOS-uiux-Solutions/eos-icons-adobe-xd"
-                              target="_blank"
-                              rel="noreferrer"
-                            >
-                              <FaGithub className="text-xl inline" />
-                            </a>
-                            <img
-                              src={proj11}
-                              alt="rproj"
-                              className="mt-4 rounded"
-                            />
+                          <div class="grid grid-cols-2 gap-4 mt-2">
+                            <div className="inline-block">
+                              <a
+                                href="https://anshuman-portfolio-woad.vercel.app/"
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                <button className="text-white">
+                                  {" "}
+                                  <AiOutlineLink className="inline mr-2 text-xl" />
+                                  anshuman.vercel.app
+                                </button>
+                              </a>
+                            </div>
+                            <div className="inline">
+                              <a
+                                href="https://github.com/EOS-uiux-Solutions/eos-icons-adobe-xd"
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                <FaGithub className="text-xl inline" />
+                              </a>
+                            </div>
                           </div>
+                          <img
+                            src={proj11}
+                            alt="rproj"
+                            className="mt-4 rounded"
+                          />
                         </div>
                       </li>
                       <li className="py-4 flex cursor-pointer">
@@ -500,31 +541,35 @@ export default function Projects() {
                             dedicated to developing Tailwind components, and
                             innovation within the web design community.
                           </p>
-                          <a
-                            href="https://kaleido-ux-taupe.vercel.app/"
-                            target="_blank"
-                            rel="noreferrer"
-                          >
-                            <button className="text-white mt-2">
-                              {" "}
-                              <AiOutlineLink className="inline mr-2 text-xl" />
-                              kaleido-ux.vercel.app
-                            </button>
-                          </a>
-                          <div className="inline ml-[15rem] ">
-                            <a
-                              href="https://github.com/AnshumanDhiman/kaleido-ux"
-                              target="_blank"
-                              rel="noreferrer"
-                            >
-                              <FaGithub className="text-xl inline" />
-                            </a>
-                            <img
-                              src={proj8}
-                              alt="rproj"
-                              className="mt-4 rounded opacity-75"
-                            />
+                          <div class="grid grid-cols-2 gap-4 mt-2">
+                            <div className="inline-block">
+                              <a
+                                href="https://kaleido-ux-taupe.vercel.app/"
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                <button className="text-white">
+                                  {" "}
+                                  <AiOutlineLink className="inline mr-2 text-xl" />
+                                  kaleido-ux.vercel.app
+                                </button>
+                              </a>
+                            </div>
+                            <div className="inline ">
+                              <a
+                                href="https://github.com/AnshumanDhiman/kaleido-ux"
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                <FaGithub className="text-xl inline" />
+                              </a>
+                            </div>
                           </div>
+                          <img
+                            src={proj8}
+                            alt="rproj"
+                            className="mt-4 rounded opacity-75"
+                          />
                         </div>
                       </li>
 
@@ -536,28 +581,31 @@ export default function Projects() {
                             connecting blood donors with those in need,
                             providing a seamless platform for blood donation.
                           </p>
-                          <a href="/" target="_blank" rel="noreferrer">
-                            <button className="text-white mt-2">
-                              {" "}
-                              <AiOutlineLink className="inline mr-2 text-xl" />
-                              blood-bank.vercel.app
-                            </button>
-                          </a>
-                          <div className="inline ml-[14.5rem] ">
-                            <a
-                              href="https://github.com/AnshumanDhiman/Blood-Bank"
-                              target="_blank"
-                              rel="noreferrer"
-                            >
-                              <FaGithub className="text-xl inline" />
-                            </a>
-                            <img
-                              src={proj14}
-                              alt="rproj"
-                              className="mt-4 rounded  opacity-75"
-                              
-                            />
+                          <div class="grid grid-cols-2 gap-4 mt-2">
+                            <div className="inline-block">
+                              <a href="/" target="_blank" rel="noreferrer">
+                                <button className="text-white">
+                                  {" "}
+                                  <AiOutlineLink className="inline mr-2 text-xl" />
+                                  blood-bank.vercel.app
+                                </button>
+                              </a>
+                            </div>
+                            <div className="inline">
+                              <a
+                                href="https://github.com/AnshumanDhiman/Blood-Bank"
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                <FaGithub className="text-xl inline" />
+                              </a>
+                            </div>
                           </div>
+                          <img
+                            src={proj14}
+                            alt="rproj"
+                            className="mt-4 rounded  opacity-75"
+                          />
                         </div>
                       </li>
                     </ul>

@@ -17,7 +17,7 @@ function classNames(...classes) {
 export default function Example() {
   return (
     <>
-      <div className="lg:px-[22rem]">
+      <div className="lg:px-[21rem]">
         <Disclosure
           as="nav"
           className="bg-inner_black lg:rounded-full lg:border-[1px] lg:border-[#303032]"
