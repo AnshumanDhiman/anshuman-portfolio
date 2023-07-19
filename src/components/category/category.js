@@ -53,9 +53,9 @@ export default function Category() {
                           target="_blank"
                           rel="noreferrer"
                         >
-                          <button className="text-white">
+                          <button className="text-white text-sm lg:text-md">
                             {" "}
-                            <AiOutlineLink className="inline mr-2 text-xl" />
+                            <AiOutlineLink className="hidden lg:inline mr-2 text-sm lg:text-xl" />
                             rollinstudios.in
                           </button>
                         </a>
@@ -74,34 +74,33 @@ export default function Category() {
                 </li>
                 <li className="py-4 flex cursor-pointer">
                   <div className="p-6 rounded-3xl border-[1.5px] border-[#303032] trnasition duration-300 hover:border-[#365B64] hover: ease-in-out">
-                    Zen Solutions
+                  Zen Solutions
                     <p className="text-sm text-gray-500">
-                      Developed Zen Solutions, a consultancy website, providing
+                    Developed Zen Solutions, a consultancy website, providing
                       different IT services to clients including website
                       designing, testing & etc.
                     </p>
-                    <a
-                      href="https://zensolutions.vercel.app/"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <button className="text-white mt-2">
-                        {" "}
-                        <AiOutlineLink className="inline mr-2 text-xl" />
-                        zensolutions.vercel.app
-                      </button>
-                    </a>
-                    <div className="inline ml-[15.5rem] ">
-                      {/* <a
-                              href="https://github.com/AnshumanDhiman/Knowledge-For-Everyone"
-                              target="_blank"
-                              rel="noreferrer"
-                            >
-                              <FaGithub className="text-xl inline" />
-                            </a> */}
+                    <div class="grid grid-cols-2 gap-4 mt-2">
+                      <div className="inline-block">
+                        <a
+                          href="https://zensolutions.vercel.app/"
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <button className="text-white text-sm lg:text-md">
+                            {" "}
+                            <AiOutlineLink className="hidden lg:inline mr-2 text-sm lg:text-xl" />
+                            zensolutions.vercel.app
+                          </button>
+                        </a>
+                      </div>
+                      <div className="inline">
+                       
+                      </div>
                     </div>
                   </div>
                 </li>
+                
                 <li className="py-4 flex cursor-pointer">
                   <div className="p-6 rounded-3xl border-[1.5px] border-[#303032] trnasition duration-300 hover:border-[#365B64] hover: ease-in-out">
                     EOS Icons for Figma
@@ -117,9 +116,9 @@ export default function Category() {
                           target="_blank"
                           rel="noreferrer"
                         >
-                          <button className="text-white mt-2">
+                          <button className="text-white mt-2 text-sm lg:text-md">
                             {" "}
-                            <AiOutlineLink className="inline mr-2 text-xl" />
+                            <AiOutlineLink className="hidden lg:inline mr-2 text-sm lg:text-xl" />
                             figma.com
                           </button>
                         </a>
@@ -148,10 +147,10 @@ export default function Category() {
                     <div class="grid grid-cols-2 gap-4 mt-2">
                       <div className="inline-block">
                         <a href="/" target="_blank" rel="noreferrer">
-                          <button className="text-white">
+                          <button className="text-white text-sm lg:text-md">
                             {" "}
-                            <AiOutlineLink className="inline mr-2 text-xl" />
-                            ipec-conn.vercel.app
+                            <AiOutlineLink className="hidden lg:inline mr-2 text-sm lg:text-xl" />
+                            ipecon.vercel.app
                           </button>
                         </a>
                       </div>
@@ -178,7 +177,12 @@ export default function Category() {
                 </li>
               </ul>
             </div>
-            <div className="px-20 text-white">
+
+
+
+
+            
+            <div className="px-0 lg:px-20 text-white">
               <ul
                 role="list"
                 className="p-6 rounded-3xl border-[1.5px] border-[#303032]"

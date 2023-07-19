@@ -8,7 +8,7 @@ import in3 from "../assets/initiatives/3.jpg";
 export default function Initiatives() {
   return (
     <>
-      <div className="bg-black px-36">
+      <div className="bg-black lg:px-36">
         <div className="bg-new_black text-white  border-l border-[#29292C]">
           <br />
           <Navbar />
@@ -19,7 +19,7 @@ export default function Initiatives() {
                   Initiatives
                 </h1>
 
-                <p className="font-thin pt-8 pl-8 pr-8 text-center">
+                <p className="font-thin pt-8 lg:pl-8 lg:pr-8 text-justify lg:text-center">
                   Throughout my professional journey, I have embarked on a
                   multitude of projects that have not only showcased my
                   expertise but also allowed me to further refine and enhance my

@@ -4,11 +4,11 @@ import Footer from "../components/footer/footer";
 export default function home() {
   return (
     <>
-      <div className="bg-black px-36">
+      <div className="bg-black px-0 lg:px-36">
         <div className="bg-new_black text-white  border-l border-[#29292C]">
           <br />
           <Navbar />
-          <section className="bg-theme_1 p-24 lg:py-[120px] overflow-hidden relative z-10">
+          <section className="bg-theme_1 p-4 lg:p-24 lg:py-[120px] overflow-hidden relative z-10">
             <div className="container">
               <div className="flex flex-wrap -mx-4 lg:justify-between">
                 <div className="w-full px-4 lg:w-1/2 xl:w-6/12">
@@ -88,14 +88,14 @@ export default function home() {
                         name="details"
                         defaultValue=""
                       />
-                      <div>
+                 
                         <button
                           type="submit"
                           className="w-full p-3 text-white transition border rounded border-theme_4 hover:border-theme_2 hover:text-theme_2 hover:bg-theme_4 bg-theme_2 hover:bg-opacity-90"
                         >
                           Send Message
                         </button>
-                      </div>
+                    
                     </form>
                     <div>
                       <span className="absolute -top-10 -right-9 z-[-1]">

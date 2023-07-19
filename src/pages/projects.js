@@ -31,7 +31,7 @@ export default function Projects() {
 
   return (
     <>
-      <div className="bg-black px-36">
+      <div className="bg-black lg:px-36">
         <div className="bg-new_black text-white  border-l border-[#29292C]">
           <br />
           <Navbar />
@@ -39,13 +39,13 @@ export default function Projects() {
             <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
               <div className="mx-auto max-w-2xl py-16 sm:py-24 lg:max-w-none lg:py-16">
                 <h1 className="text-center text-4xl font-lighter">Projects</h1>
-                <div class="grid grid-cols-2 gap-4 px-64 py-4">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:px-64 lg:py-4">
                   <div>
                     {" "}
                     <img
                       src={x}
                       alt="x"
-                      className="w-[20rem] mt-4 rounded-lg"
+                      className=" lg:w-[20rem] mt-4 rounded-lg"
                     />
                   </div>
                   <div>
@@ -53,12 +53,12 @@ export default function Projects() {
                     <img
                       src={y}
                       alt="y"
-                      className="w-[20rem] mt-4 rounded-lg"
+                      className="lg:w-[20rem] mt-4 mb-8 lg:mb-0 rounded-lg"
                     />
                   </div>
                 </div>
 
-                <p className="font-thin pt-8 pl-8 pr-8 text-center">
+                <p className="font-thin lg:pt-8 lg:pl-8 lg:pr-8 text-justify lg:text-center">
                   Throughout my professional journey, I have embarked on a
                   multitude of projects that have not only showcased my
                   expertise but also allowed me to further refine and enhance my
@@ -96,7 +96,7 @@ export default function Projects() {
                               >
                                 <button className="text-white">
                                   {" "}
-                                  <AiOutlineLink className="inline mr-2 text-xl" />
+                                  <AiOutlineLink className="hidden lg:inline mr-2 text-xl" />
                                   rollinstudios.in
                                 </button>
                               </a>
@@ -133,7 +133,7 @@ export default function Projects() {
                           >
                             <button className="text-white mt-2">
                               {" "}
-                              <AiOutlineLink className="inline mr-2 text-xl" />
+                              <AiOutlineLink className="hidden lg:inline mr-2 text-xl" />
                               alpmedia.in
                             </button>
                           </a>
@@ -167,8 +167,8 @@ export default function Projects() {
                               <a href="/" target="_blank" rel="noreferrer">
                                 <button className="text-white">
                                   {" "}
-                                  <AiOutlineLink className="inline mr-2 text-xl" />
-                                  ipec-connect.vercel.app
+                                  <AiOutlineLink className="hidden lg:inline mr-2 text-xl" />
+                                  ipec.vercel.app
                                 </button>
                               </a>
                             </div>
@@ -206,7 +206,7 @@ export default function Projects() {
                               >
                                 <button className="text-white">
                                   {" "}
-                                  <AiOutlineLink className="inline mr-2 text-xl" />
+                                  <AiOutlineLink className="hidden lg:inline mr-2 text-xl" />
                                   figma.com
                                 </button>
                               </a>
@@ -242,7 +242,7 @@ export default function Projects() {
                               <a href="/" target="_blank" rel="noreferrer">
                                 <button className="text-white">
                                   {" "}
-                                  <AiOutlineLink className="inline mr-2 text-xl" />
+                                  <AiOutlineLink className="hidden lg:inline mr-2 text-xl" />
                                   kfe.vercel.app
                                 </button>
                               </a>
@@ -277,8 +277,8 @@ export default function Projects() {
                               <a href="/" target="_blank" rel="noreferrer">
                                 <button className="text-white">
                                   {" "}
-                                  <AiOutlineLink className="inline mr-2 text-xl" />
-                                  arcacia.vercel.app
+                                  <AiOutlineLink className="hidden lg:inline mr-2 text-xl" />
+                                  arcacia.in
                                 </button>
                               </a>
                             </div>
@@ -313,8 +313,8 @@ export default function Projects() {
                               <a href="" target="_blank" rel="noreferrer">
                                 <button className="text-white ">
                                   {" "}
-                                  <AiOutlineLink className="inline mr-2 text-xl" />
-                                  phoenix-hms.vercel.app
+                                  <AiOutlineLink className="hidden lg:inline mr-2 text-xl" />
+                                  phoenix.vercel
                                 </button>
                               </a>
                             </div>
@@ -354,7 +354,7 @@ export default function Projects() {
                           >
                             <button className="text-white mt-2">
                               {" "}
-                              <AiOutlineLink className="inline mr-2 text-xl" />
+                              <AiOutlineLink className="hidden lg:inline mr-2 text-xl" />
                               zensolutions.vercel.app
                             </button>
                           </a>
@@ -391,8 +391,8 @@ export default function Projects() {
                               >
                                 <button className="text-white">
                                   {" "}
-                                  <AiOutlineLink className="inline mr-2 text-xl" />
-                                  swastikclasses.com
+                                  <AiOutlineLink className="hidden lg:inline mr-2 text-xl" />
+                                  swc.com
                                 </button>
                               </a>
                             </div>
@@ -431,8 +431,8 @@ export default function Projects() {
                               >
                                 <button className="text-white">
                                   {" "}
-                                  <AiOutlineLink className="inline mr-2 text-xl" />
-                                  dhruverse.vercel.app
+                                  <AiOutlineLink className="hidden lg:inline mr-2 text-xl" />
+                                  dhruverse.vercel
                                 </button>
                               </a>
                             </div>
@@ -470,7 +470,7 @@ export default function Projects() {
                               >
                                 <button className="text-white mt-2">
                                   {" "}
-                                  <AiOutlineLink className="inline mr-2 text-xl" />
+                                  <AiOutlineLink className="hidden lg:inline mr-2 text-xl" />
                                   adobe.com
                                 </button>
                               </a>
@@ -510,8 +510,8 @@ export default function Projects() {
                               >
                                 <button className="text-white">
                                   {" "}
-                                  <AiOutlineLink className="inline mr-2 text-xl" />
-                                  anshuman.vercel.app
+                                  <AiOutlineLink className="hidden lg:inline mr-2 text-xl" />
+                                  anshuman.app
                                 </button>
                               </a>
                             </div>
@@ -550,8 +550,8 @@ export default function Projects() {
                               >
                                 <button className="text-white">
                                   {" "}
-                                  <AiOutlineLink className="inline mr-2 text-xl" />
-                                  kaleido-ux.vercel.app
+                                  <AiOutlineLink className="hidden lg:inline mr-2 text-xl" />
+                                  kaleido.vercel
                                 </button>
                               </a>
                             </div>
@@ -586,8 +586,8 @@ export default function Projects() {
                               <a href="/" target="_blank" rel="noreferrer">
                                 <button className="text-white">
                                   {" "}
-                                  <AiOutlineLink className="inline mr-2 text-xl" />
-                                  blood-bank.vercel.app
+                                  <AiOutlineLink className="hidden lg:inline mr-2 text-xl" />
+                                  bbank.vercel
                                 </button>
                               </a>
                             </div>
