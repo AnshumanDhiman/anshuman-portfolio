@@ -31,7 +31,7 @@ export default function Projects() {
 
   return (
     <>
-      <div className="bg-black lg:px-36">
+      <div className="bg-black lg:px-36 overflow-x-hidden lg:overflow-x-auto">
         <div className="bg-new_black text-white  border-l border-[#29292C]">
           <br />
           <Navbar />
