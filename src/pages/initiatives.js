@@ -79,7 +79,7 @@ export default function Initiatives() {
                         <h1 className="text-2xl font-bold text-center">
                           Alp Media
                         </h1>
-                        <h4 className="text-sm text-center">Co-founder</h4>
+                        <h4 className="text-sm text-center">Developer</h4>
                         <p className="font-thin pt-4  text-justify">
                           Alp Media, a powerhouse in the world of media, stands
                           tall as one of the fastest-growing networks today.
