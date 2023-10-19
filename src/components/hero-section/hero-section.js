@@ -17,7 +17,7 @@ export default function HeroSection() {
         <br />
         <p className="lg:text-m lg:pr-[18rem] text-light_black">
           Anshuman is a skilled full-stack web developer and UI/UX designer
-          pursuing B.Tech in Information & Technology at Inderprastha
+          who has completed B.Tech in Information & Technology at Inderprastha
           Engineering College. He has been an active Open Source contributor
           since 2021 and enjoys exploring and contributing to various
           organizations. Anshuman is also passionate about aviation, having

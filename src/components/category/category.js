@@ -198,7 +198,7 @@ export default function Category() {
                     <p className="text-sm text-gray-500">SDET-1</p>
                   </div>
                 </li>
-                <li className="py-4 flex">
+                {/* <li className="py-4 flex">
                   <img src={alp} alt="" className="w-10 h-10 rounded-full" />
                   <div className="ml-3">
                     <p className="text-sm font-medium text-white">Alp Media</p>
@@ -206,7 +206,7 @@ export default function Category() {
                       Cinematographer & Professional Editor
                     </p>
                   </div>
-                </li>
+                </li> */}
                 <li className="py-4 flex">
                   <img src={eos} alt="" className="w-10 h-10 rounded-full" />
                   <div className="ml-3">
